@@ -1,0 +1,27 @@
+button {
+    text-transform: uppercase;
+}
+
+.banner-img {
+    background: linear-gradient(to bottom, transparent, rgb(0, 0, 0)), url(./images/banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 95vh;
+}
+
+.text-shadow {
+    text-shadow: 1px 1px 20px black;
+}
+
+@media only screen and (max-width: 1026px) {
+    .custom-btn {
+        justify-content: end;
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .custom-btn {
+        width: auto;
+    }
+}
